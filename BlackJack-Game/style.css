@@ -15,6 +15,8 @@ h1 {
   font-style: italic;
 }
 
+/* 3. Make sure that the two buttons have some space between
+each other when they are rendered out vertically */
 button {
   cursor: pointer;
   font-weight: bold;
@@ -25,4 +27,6 @@ button {
   padding: 0.313rem 0;
   font-weight: none;
   border-radius: 0.125rem;
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
 }
